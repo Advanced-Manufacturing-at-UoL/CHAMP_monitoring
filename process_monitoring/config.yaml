@@ -1,0 +1,14 @@
+output_path: "/path/to/output"
+part_name: example_part
+mask_handler:
+    parsed_gcode: some g code
+    image_width: 100
+    image_height: 100
+    pix_per_mm: 100
+camera:
+    exposure: 200000
+    pix_per_mm: 56
+yolo:
+    model_path: path/to/yolo_model/
+    correction_enabled: true
+    remove_underextrusions: true
